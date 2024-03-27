@@ -16,6 +16,7 @@ gem 'tzinfo-data', platforms: %i[windows jruby]
 group :development, :test do
   gem 'byebug', '9.0.6', platform: :mri
   gem 'debug', platforms: %i[mri windows]
+  gem 'factory_bot_rails'
   gem 'rspec-rails'
   gem 'rubocop', require: false
   gem 'rubocop-performance', require: false
@@ -27,6 +28,7 @@ end
 group :development do
   gem 'listen', '3.9.0'
   gem 'spring', '2.0.2'
+  gem 'spring-commands-rspec'
   gem 'spring-watcher-listen', '2.0.1'
   gem 'web-console', '3.5.1'
 end
